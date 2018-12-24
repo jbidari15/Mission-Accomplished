@@ -11,7 +11,7 @@
 >cd ..(get out of client)
 > npm run dev (this one starts the front-end and back-end server together as concurrently is used for development)
 > Mongo server is not required to run locally as mLab is used .
-
+```
 ### How to Deploy the application 
 
 ```
@@ -34,7 +34,7 @@
  
 > As we know that we have to run "npm run build" in create-react-app during production so that it compiles 
  everything together into one   place, static assets, all JavaScript, etc .but with heroku following line of
- code will perform the operation and run our server file     with node once it's built.Add the following 
+ code will perform the operation and run our server file with node once it's built.Add the following 
  line of code to package.json :
 >"scripts": {
     "start": "node server.js",
