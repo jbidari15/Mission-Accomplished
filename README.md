@@ -10,8 +10,7 @@
 >npm install (installs the dependencies for front-end)
 >cd ..(get out of client)
 > npm run dev (this one starts the front-end and back-end server together as concurrently is used for development)
-
-```
+> Mongo server is not required to run locally as mLab is used .
 
 ### How to Deploy the application 
 
