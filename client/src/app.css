@@ -1,0 +1,60 @@
+.app {
+  height: 900px;
+  overflow-x: hidden;
+}
+.searchComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+input[type="text"] {
+  margin-right: 10px;
+  width: 300px;
+  outline: none;
+}
+.searchButton {
+  margin-top: 20px;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+.valid {
+  border: 2px solid green;
+}
+.err-msg {
+  color: red;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 30px;
+  font-size: 30px;
+  justify-content: center;
+}
+table {
+  width: 100%;
+  margin-left: 100px;
+}
+th {
+  padding: 10px;
+}
+.notFound {
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+td {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.loader {
+  display: flex;
+  margin-top: 10px;
+  width: 100vw;
+  justify-content: center;
+}
